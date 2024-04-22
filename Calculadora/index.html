@@ -4,8 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="call.css">
     <link rel="stylesheet" href="outro.css">
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="sidebar/sidebar.css">
     </head>
     
     <body>
@@ -13,81 +11,6 @@
           <h1>Calculadora<img id="im1" src="img/icon call.png" alt="ams"></h1>
   
       </div>
-      <!--Inicio Menu-->
-    <div class="sidebar close">
-      
-        <div class="logo-details">
-          
-          <i class="bx bx-menu"></i>
-          <span class="logo_name">Menu</span>
-       
-        </div>
-        
-        <ul class="nav-links">
-            <!--Início-->
-          <li>
-            
-            <a href="/">
-              <i class='bx bx-grid-alt' ></i>
-              <span class="link_name">Início</span>
-            </a>
-              
-            <ul class="sub-menu blank">
-              <li><a class="link_name" href="/">Início</a></li>
-            </ul>
-            
-          </li>
-          <!--Fim!-->
-          <li>
-            
-            <a href="du">
-              <i class='bx bx-pie-chart-alt-2' ></i>
-              <span class="link_name">teste</span>
-            </a>
-            <ul class="sub-menu blank">
-              <li><a class="link_name" href="du">teste</a></li>
-            </ul>
-          </li>
-          <li>
-        
-            <div class="profile-details">
-              
-              <div class="profile-content">
-                <!--<img src="image/profile.jpg" alt="profileImg">-->
-              </div>
-              
-              <div class="name-job">
-                
-                <div class="profile_name">Calculadora</div>
-                <div class="job">Início</div>
-              
-              </div>
-              
-              <i class="bx bx-log-out"></i>
-            
-            </div>
-          
-          </li>
-        </ul>
-      </div>
-      <!--Fecha Menu-->
-      <script>
-  
-        let arrow = document.querySelectorAll(".arrow");
-        for (var i = 0; i < arrow.length; i++) {
-          arrow[i].addEventListener("click", (e)=>{
-         let arrowParent = e.target.parentElement.parentElement;
-         arrowParent.classList.toggle("showMenu");
-          });
-        }
-        
-        let sidebar = document.querySelector(".sidebar");
-        let sidebarBtn = document.querySelector(".bx-menu");
-        console.log(sidebarBtn);
-        sidebarBtn.addEventListener("click", ()=>{
-          sidebar.classList.toggle("close");
-        });
-    </script>
       
     <!-- CALCULATOR -->
     <div class="calculator">
