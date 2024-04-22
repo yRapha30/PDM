@@ -8,7 +8,8 @@
     padding: 1%;
     text-align: center;
     color: rgb(255, 255, 255);
-    width: 100%;
+    width: 119%;
+    margin-left: 0%;
   }
   .duo{
     text-align: center;
@@ -29,8 +30,7 @@
       padding: 10px 20px;
       margin-top: 10%;
       margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: 20%;
     }
     .display{
       margin-top: 0%;
@@ -67,8 +67,8 @@
       margin-left: 2%;
       margin-right: 2%;
       margin-bottom: 3px;
-      width: 1000px;
-      height: 230px;
+      width: 130%;
+      height: 250px;
     }
     
     /* BUTTON */
